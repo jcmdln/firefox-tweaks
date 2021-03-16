@@ -64,6 +64,7 @@ user_pref("browser.urlbar.autoFill.typed", false);
 user_pref("browser.urlbar.filter.javascript", true);
 user_pref("browser.urlbar.suggest.history", false);
 user_pref("browser.urlbar.suggest.searches", false);
+user_pref("browser.urlbar.suggest.topsites", false);
 user_pref("browser.urlbar.trimURLs", false);
 user_pref("camera.control.face_detection.enabled", false);
 user_pref("clipboard.autocopy", false);
