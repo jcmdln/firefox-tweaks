@@ -136,7 +136,7 @@ user_pref("loop.enabled", false);
 user_pref("loop.logDomains", false);
 user_pref("media.getusermedia.audiocapture.enabled", false);
 user_pref("media.getusermedia.screensharing.enabled", false);
-user_pref("media.gmp-gmpopenh264.enabled", false);
+user_pref("media.gmp-gmpopenh264.enabled", true);
 user_pref("media.gmp-manager.url", "");
 user_pref("media.navigator.enabled", false);
 user_pref("media.navigator.video.enabled", false);
