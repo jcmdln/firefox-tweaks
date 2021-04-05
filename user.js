@@ -56,6 +56,7 @@ user_pref("browser.ssl_override_behavior", 1);
 user_pref("browser.startup.blankWindow", false);
 user_pref("browser.startup.homepage_override.buildID", "20100101");
 user_pref("browser.tabs.crashReporting.sendReport", false);
+user_pref("browser.tabs.loadBookmarksInBackground", true);
 user_pref("browser.tabs.loadDivertedInBackground", true);
 user_pref("browser.toolbars.bookmarks.visibility", "newtab");
 user_pref("browser.uidensity", 1);
