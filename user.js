@@ -1,18 +1,29 @@
 //
-// user.js
+//// user.js
 //
+// Zero-Clause BSD
+//
+// Permission to use, copy, modify, and/or distribute this software for
+// any purpose with or without fee is hereby granted.
+//
+// THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL
+// WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED
+// WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE
+// AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL
+// DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR
+// PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+// TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+// PERFORMANCE OF THIS SOFTWARE.
 
 user_pref("app.normandy.api_url", "");
 user_pref("app.normandy.enabled", false);
 user_pref("app.shield.optoutstudies.enabled", false);
-user_pref("app.update.enabled", true);
 user_pref("beacon.enabled", false);
 user_pref("breakpad.reportURL", "");
 user_pref("browser.aboutHomeSnippets.updateUrl", "");
 user_pref("browser.bookmarks.max_backups", 0);
 user_pref("browser.cache.offline.enable", false);
 user_pref("browser.crashReports.unsubmittedCheck.enabled", false);
-user_pref("browser.display.use_document_fonts", 0);
 user_pref("browser.download.folderList", 2);
 user_pref("browser.download.manager.retention", 0);
 user_pref("browser.fixup.alternate.enabled", false);
@@ -30,7 +41,6 @@ user_pref("browser.newtabpage.activity-stream.feeds.topsites", false);
 user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
 user_pref("browser.newtabpage.directory.ping", "");
 user_pref("browser.newtabpage.directory.source", "data:text/plain,{}");
-user_pref("browser.newtabpage.enabled", true);
 user_pref("browser.newtabpage.enhanced", false);
 user_pref("browser.offline-apps.notify", true);
 user_pref("browser.pagethumbnails.capturing_disabled", true);
@@ -46,15 +56,12 @@ user_pref("browser.search.geoip.url", "");
 user_pref("browser.search.region", "US");
 user_pref("browser.search.suggest.enabled", false);
 user_pref("browser.search.update", false);
-user_pref("browser.selfsupport.url", "");
-user_pref("browser.send_pings", true);
 user_pref("browser.send_pings.require_same_host", true);
 user_pref("browser.sessionstore.privacy_level", 2);
 user_pref("browser.shell.checkDefaultBrowser", false);
 user_pref("browser.shell.shortcutFavicons", false);
 user_pref("browser.ssl_override_behavior", 1);
 user_pref("browser.startup.blankWindow", false);
-user_pref("browser.startup.homepage_override.buildID", "20100101");
 user_pref("browser.tabs.crashReporting.sendReport", false);
 user_pref("browser.tabs.loadBookmarksInBackground", true);
 user_pref("browser.tabs.loadDivertedInBackground", true);
@@ -65,6 +72,7 @@ user_pref("browser.urlbar.autoFill", false);
 user_pref("browser.urlbar.autoFill.typed", false);
 user_pref("browser.urlbar.filter.javascript", true);
 user_pref("browser.urlbar.placeholderName", "DuckDuckGo");
+user_pref("browser.urlbar.placeholderName.private", "DuckDuckGo");
 user_pref("browser.urlbar.suggest.history", false);
 user_pref("browser.urlbar.suggest.searches", false);
 user_pref("browser.urlbar.suggest.topsites", false);
@@ -98,7 +106,6 @@ user_pref("extensions.shield-recipe-client.enabled", false);
 user_pref("extensions.update.enabled", true);
 user_pref("extensions.webextensions.restrictedDomains", "");
 user_pref("general.autoScroll", true);
-user_pref("general.buildID.override", "20100101");
 user_pref("geo.enabled", false);
 user_pref("geo.wifi.logging.enabled", false);
 user_pref("geo.wifi.uri", "https://location.services.mozilla.com/v1/geolocate?key=%MOZILLA_API_KEY%");
@@ -114,8 +121,6 @@ user_pref("network.captive-portal-service.enabled", false);
 user_pref("network.dns.blockDotOnion", true);
 user_pref("network.dns.disablePrefetch", true);
 user_pref("network.dns.disablePrefetchFromHTTPS", true);
-user_pref("network.http.referer.XOriginPolicy", 2);
-user_pref("network.http.referer.spoofSource", true);
 user_pref("network.http.speculative-parallel-limit", 0);
 user_pref("network.manage-offline-status", false);
 user_pref("network.predictor.enabled", false);
@@ -123,9 +128,6 @@ user_pref("network.prefetch-next", false);
 user_pref("network.proxy.socks_remote_dns", true);
 user_pref("network.stricttransportsecurity.preloadlist", true);
 user_pref("places.history.enabled", false);
-user_pref("plugin.state.flash", 0);
-user_pref("plugin.state.java", 0);
-user_pref("plugin.state.libgnome-shell-browser-plugin", 0);
 user_pref("plugins.click_to_play", true);
 user_pref("plugins.update.notifyUser", true);
 user_pref("privacy.clearOnShutdown.cache", true);
